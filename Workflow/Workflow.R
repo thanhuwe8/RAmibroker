@@ -1,0 +1,11 @@
+library(available)
+library(usethis)
+library(roxygen2)
+library(formatR)
+
+use_github(protocol = "https", auth_token = "3625f17ff089f22a81c008ef276b631938f5286d")
+use_package_doc()
+use_readme_rmd()
+use_vignette("RAmibroker-vignette")
+use_description()
+use_version()
